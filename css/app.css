@@ -245,6 +245,7 @@ ul {
     display: block;
     width: 0;
     height: 0;
+    margin-bottom: -1px;
     border-top: solid 2.5rem transparent;
     border-right: solid 2.5rem var(--white);
 }

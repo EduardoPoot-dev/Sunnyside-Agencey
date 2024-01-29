@@ -452,8 +452,6 @@ ul {
     }   
 }
 
-/*NORMAL SERVICE LINK STYLES*/
-
 .service__link::after {
     content: '';
     display: block;
@@ -465,7 +463,7 @@ ul {
     transition: all 300ms ease-in-out;
 }
 
-.service__link:hover.section__link::after {
+.service__link:hover.service__link::after {
     background-color: var(--yellow-hover);
 }
 
@@ -473,7 +471,7 @@ ul {
     background-color: var(--soft-red);
 }
 
-.service__link:hover.section__link--red::after {
+.service__link:hover.service__link--red::after {
     background-color: var(--soft-red-hover);
 }
 
